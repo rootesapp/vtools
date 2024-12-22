@@ -83,6 +83,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'org.lsposed.hiddenapibypass:hiddenapibypass:4.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.material:material:1.2.1'
     // implementation 'com.android.support:cardview-v7:28.0.0'
@@ -102,6 +103,14 @@ dependencies {
     //        }
     //    }
     // implementation files('libs/crimson.jar')
+
+    implementation 'com.sun.mail:android-mail:1.6.7'
+    implementation 'com.sun.mail:android-activation:1.6.7'
+    
+implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+      implementation 'com.squareup.okhttp3:okhttp:4.9.3'  // 使用最新稳定版的 OkHttp
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
 }
 repositories {
     mavenCentral()
