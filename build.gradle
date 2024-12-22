@@ -20,8 +20,9 @@ allprojects {
     repositories {
         // maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven {
-            url 'https://jitpack.io'
+            url 'https://jcenter.bintray.com'
         }
+        maven { url 'https://api.xposed.info/' }
         google()
         jcenter()
     }
